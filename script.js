@@ -29,3 +29,4 @@ btnPrev.addEventListener("click", (e) => {
     currentIndex = (currentIndex - 1 + maxSlides) % maxSlides;
     updateSlide();
 })
+
