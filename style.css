@@ -52,6 +52,13 @@ nav a {
     margin: 0 10px;
 }
 
+.lien-nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 8px;
+}
+
 .logo {
     font-size: 25px;
     font-weight: bolder;
@@ -269,9 +276,12 @@ footer::before{
     background-color: var(--background-color);
 }
 .logo-footer{
-    color: white;
     text-align: center;
     margin-bottom: -50px;
+}
+
+.logo-footer h2 {
+    color:white
 }
 
 .droits-footer{
